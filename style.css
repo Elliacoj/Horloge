@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+}
+
+#circle {
+    width: 60rem;
+    height: 60rem;
+    border: 6px solid black;
+    border-radius: 360px;
+    margin: 3% auto 2% auto;
+    position: relative;
+    background-color: darkgrey;
+}
+
+
+
+#soixante, #quinze, #quarantecinq, #trente, #cinq, #dix, #vingt, #vingtcinq, #trentecinq, #quarante, #cinquante, #cinquantecinq {
+    width: 4%;
+    border: 2px solid black;
+    height: 0;
+    position: absolute;
+}
+
+#un, #deux, #trois, #quatre, #cinquantesix, #cinquantesept, #cinquantehuit, #cinquanteneuf, #trenteetun, #trentedeux, #trentetrois, #trentequatre,
+#vingtsix, #vingtsept, #vingthuit, #vingtneuf, #six, #sept, #huit, #neuf, #vingtetun, #vingtdeux, #vingttrois, #vingtquatre, #quarantesix, #quarantesept,
+#quarantehuit, #quaranteneuf, #cinquanteetun, #cinquantedeux, #cinquantetrois, #cinquantequatre, #trentesix, #trentesept, #trentehuit, #trenteneuf,
+#onze, #douze, #treize, #quatorze, #quaranteetun, #quarantedeux, #quarantetrois, #quarantequatre, #seize, #dixsept, #dixhuit, #dixneuf{
+    width: 2%;
+    border: 2px solid black;
+    height: 0;
+    position: absolute;
+}
+
+#un {
+    transform: rotate(96deg);
+    right: 43.6%;
+    top: 1.3%;
+}
+
+#deux {
+    transform: rotate(102deg);
+    right: 38.6%;
+    top: 2%;
+}
+
+#trois {
+    transform: rotate(108deg);
+    right: 34%;
+    top: 3.3%;
+}
+
+#quatre {
+    transform: rotate(114deg);
+    right: 29.2%;
+    top: 5%;
+}
+
+#cinq {
+    transform: rotate(120deg);
+    right: 24%;
+    top: 8%;
+}
+
+#six {
+    transform: rotate(126deg);
+    right: 20.6%;
+    top: 9.9%;
+}
+
+#sept {
+    transform: rotate(132deg);
+    right: 16.4%;
+    top: 12.9%;
+}
+
+#huit {
+    transform: rotate(138deg);
+    right: 12.8%;
+    top: 16.8%;
+}
+
+#neuf {
+    transform: rotate(144deg);
+    right: 9.4%;
+    top: 21%;
+}
+
+#dix {
+    transform: rotate(150deg);
+    right: 6.5%;
+    top: 25.5%;
+}
+
+#onze {
+    transform: rotate(156deg);
+    right: 4.5%;
+    top: 29.4%;
+}
+
+#douze {
+    transform: rotate(162deg);
+    right: 2.3%;
+    top: 34.4%;
+}
+
+#treize {
+    transform: rotate(168deg);
+    right: 1%;
+    top: 39.8%;
+}
+
+#quatorze {
+    transform: rotate(174deg);
+    right: 0.3%;
+    top: 44.8%;
+}
+
+#quinze {
+     right: 0;
+     top: 50%;
+}
+
+#seize {
+    transform: rotate(6deg);
+    right: 0.3%;
+    bottom: 44.3%;
+}
+
+#dixsept {
+    transform: rotate(12deg);
+    right: 1%;
+    bottom: 39.2%;
+}
+
+#dixhuit {
+    transform: rotate(18deg);
+    right: 2.3%;
+    bottom: 34.4%;
+}
+
+#dixneuf {
+    transform: rotate(24deg);
+    right: 4.5%;
+    bottom: 29.4%;
+}
+
+#vingt {
+    transform: rotate(30deg);
+    right: 6.5%;
+    bottom: 25.5%;
+}
+
+#vingtetun {
+    transform: rotate(36deg);
+    right: 9.4%;
+    bottom: 21%;
+}
+
+#vingtdeux {
+    transform: rotate(42deg);
+    right: 12.8%;
+    bottom: 16.8%;
+}
+
+#vingttrois {
+    transform: rotate(48deg);
+    right: 16.4%;
+    bottom: 12.9%;
+}
+
+#vingtquatre {
+    transform: rotate(54deg);
+    right: 20.6%;
+    bottom: 9.9%;
+}
+
+#vingtcinq {
+    transform: rotate(60deg);
+    right: 23.8%;
+    bottom: 7.8%;
+}
+
+#vingtsix {
+    transform: rotate(66deg);
+    right: 29.2%;
+    bottom: 5%;
+}
+
+#vingtsept {
+    transform: rotate(72deg);
+    right: 34%;
+    bottom: 3.3%;
+}
+
+#vingthuit {
+    transform: rotate(78deg);
+    right: 38.6%;
+    bottom: 2%;
+}
+
+#vingtneuf {
+    transform: rotate(84deg);
+    right: 43.6%;
+    bottom: 1.3%;
+}
+
+#trente {
+    bottom: 1%;
+    left: 47.5%;
+    transform: rotate(90deg);
+}
+
+#trenteetun {
+    transform: rotate(96deg);
+    left: 43.6%;
+    bottom: 1.3%;
+}
+
+#trentedeux {
+    transform: rotate(102deg);
+    left: 38.6%;
+    bottom: 2%;
+}
+
+#trentetrois {
+    transform: rotate(108deg);
+    left: 34.3%;
+    bottom: 3.2%;
+}
+
+#trentequatre {
+    transform: rotate(114deg);
+    left: 29.3%;
+    bottom: 5.2%;
+}
+
+#trentecinq {
+    transform: rotate(120deg);
+    left: 23.9%;
+    bottom: 7.7%;
+}
+
+#trentesix {
+    transform: rotate(126deg);
+    left: 20.6%;
+    bottom: 9.9%;
+}
+
+#trentesept {
+    transform: rotate(132deg);
+    left: 16.4%;
+    bottom: 12.9%;
+}
+
+#trentehuit {
+    transform: rotate(138deg);
+    left: 12.8%;
+    bottom: 16.8%;
+}
+
+#trenteneuf {
+    transform: rotate(142deg);
+    left: 9.4%;
+    bottom: 21%;
+}
+
+#quarante {
+    transform: rotate(150deg);
+    left: 6.5%;
+    bottom: 25.5%;
+}
+
+#quaranteetun {
+    transform: rotate(156deg);
+    left: 4.5%;
+    bottom: 29.4%;
+}
+
+#quarantedeux {
+    transform: rotate(162deg);
+    left: 2.3%;
+    bottom: 34.4%;
+}
+
+#quarantetrois {
+    transform: rotate(168deg);
+    left: 1%;
+    bottom: 39.8%;
+}
+
+#quarantequatre {
+    transform: rotate(174deg);
+    left: 0.3%;
+    bottom: 44.8%;
+}
+
+#quarantecinq {
+    top: 50%;
+}
+
+#quarantesix {
+    transform: rotate(6deg);
+    left: 0.3%;
+    top: 44.8%;
+}
+
+#quarantesept {
+    transform: rotate(12deg);
+    left: 1%;
+    top: 39.8%;
+}
+
+#quarantehuit {
+    transform: rotate(18deg);
+    left: 2.3%;
+    top: 34.4%;
+}
+
+#quaranteneuf {
+    transform: rotate(24deg);
+    left: 4.5%;
+    top: 29.4%;
+}
+
+#cinquante {
+    transform: rotate(30deg);
+    left: 6.5%;
+    top: 25.5%;
+}
+
+#cinquanteetun {
+    transform: rotate(36deg);
+    left: 9.4%;
+    top: 21%;
+}
+
+#cinquantedeux {
+    transform: rotate(42deg);
+    left: 12.8%;
+    top: 16.8%;
+}
+
+#cinquantetrois {
+    transform: rotate(48deg);
+    left: 16.4%;
+    top: 12.9%;
+}
+
+#cinquantequatre {
+    transform: rotate(54deg);
+    left: 20.6%;
+    top: 9.9%;
+}
+#cinquantecinq {
+    transform: rotate(60deg);
+    left: 23.7%;
+    top: 8.3%;
+}
+
+#cinquantesix {
+    transform: rotate(66deg);
+    left: 29.5%;
+    top: 5%;
+}
+
+#cinquantesept {
+    transform: rotate(72deg);
+    left: 34%;
+    top: 3.3%;
+}
+
+#cinquantehuit {
+    transform: rotate(78deg);
+    left: 38.6%;
+    top: 2%;
+}
+
+#cinquanteneuf {
+    transform: rotate(84deg);
+    left: 43.6%;
+    top: 1.3%;
+}
+
+#soixante {
+    left: 47.5%;
+    top: 1%;
+    transform: rotate(90deg);
+}
+
+p {
+    font-size: 4rem;
+    position: absolute;
+}
+
+#chiffreUn {
+    right: 28%;
+    top: 10%;
+}
+
+#chiffreDeux {
+    right: 13%;
+    top: 25%;
+}
+
+#chiffreTrois {
+    right: 7%;
+    top: 46.5%;
+}
+
+#chiffreQuatre {
+    right: 28%;
+    bottom: 10%;
+}
+
+#chiffreCinq {
+    right: 13%;
+    bottom: 25%;
+}
+
+#chiffreSix {
+    right: 48.5%;
+    bottom: 4%;
+}
+
+#chiffreSept {
+    left: 28%;
+    bottom: 10%;
+}
+
+#chiffreHuit {
+    left: 13%;
+    bottom: 25%;
+}
+
+#chiffreNeuf {
+    left: 7%;
+    top: 46.5%;
+}
+
+#chiffreDix {
+    left: 13%;
+    top: 25%;
+}
+
+#chiffreOnze {
+    left: 28%;
+    top: 10%;
+}
+
+#chiffreDouze {
+    left: 46.5%;
+    top: 4%;
+}
+
+#hours, #minutes, #seconds {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform-origin: left;
+    transform: rotate(270deg);
+}
+
+#hours {
+    width: 40%;
+    border: 3px solid black;
+}
+
+#minutes {
+    width: 45%;
+    border: 2px solid black;
+}
+
+#seconds {
+    width: 45%;
+    border: 1px solid black;
+}
+
+#date {
+    margin:0 auto 5% auto;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem;
+}
