@@ -474,12 +474,12 @@ p {
 }
 
 #hours {
-    width: 40%;
+    width: 35%;
     border: 3px solid black;
 }
 
 #minutes {
-    width: 45%;
+    width: 40%;
     border: 2px solid black;
 }
 
