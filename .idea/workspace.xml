@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2789fa60-536e-44a3-b203-5939f3251841" name="Default Changelist" comment="Modif" />
+    <list default="true" id="2789fa60-536e-44a3-b203-5939f3251841" name="Default Changelist" comment="Modif">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608711835531</updated>
       <workItem from="1608711857115" duration="16753000" />
-      <workItem from="1608730215213" duration="7813000" />
+      <workItem from="1608730215213" duration="9656000" />
     </task>
     <task id="LOCAL-00001" summary="Modif">
       <created>1608731745142</created>

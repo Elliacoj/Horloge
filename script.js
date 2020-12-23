@@ -14,7 +14,7 @@ document.getElementById("date").innerHTML = "Date du jour: " + day + "/" + month
 
 chrono();
 
-// function
+// function for pass the times
 function chrono() {
     second.style.transform = "rotate(" + ((seconds + 45) * 6) +"deg)";
     minute.style.transform = "rotate(" + ((minutes + 45) * 6) +"deg)";
