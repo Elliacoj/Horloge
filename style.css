@@ -23,6 +23,7 @@ body {
     margin: 3% auto 2% auto;
     position: relative;
     background-color: darkgrey;
+    box-shadow: 10px 10px 10px lightgray;
 }
 
 #soixante, #quinze, #quarantecinq, #trente, #cinq, #dix, #vingt, #vingtcinq, #trentecinq, #quarante, #cinquante, #cinquantecinq {
