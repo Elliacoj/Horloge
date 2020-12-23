@@ -493,3 +493,14 @@ p {
     text-align: center;
     font-size: 3rem;
 }
+
+#rond {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 90%;
+    background-color: black;
+    position: absolute;
+    left: 48.5%;
+    top: 48.5%;
+}
