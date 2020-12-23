@@ -12,12 +12,13 @@ let second = document.getElementById("seconds");
 
 document.getElementById("date").innerHTML = "Date du jour: " + day + "/" + month + "/" + year;
 
+second.style.transform = "rotate(" + ((seconds + 45) * 6) +"deg)";
+minute.style.transform = "rotate(" + ((minutes + 45) * 6) +"deg)";
+hour.style.transform = "rotate(" + ((hours + 45) * 30) +"deg)";
+
 sec();
 
 function sec() {
-    second.style.transform = "rotate(" + ((seconds + 45) * 6) +"deg)";
-    minute.style.transform = "rotate(" + ((minutes + 45) * 6) +"deg)";
-    hour.style.transform = "rotate(" + ((hours + 45) * 30) +"deg)";
     seconds++
     if(seconds >= 60) {
         seconds = 0;
