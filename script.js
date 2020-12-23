@@ -12,9 +12,10 @@ let year = date.getFullYear();
 
 document.getElementById("date").innerHTML = "Date du jour: " + day + "/" + month + "/" + year;
 
-sec();
+chrono();
 
-function sec() {
+// function
+function chrono() {
     second.style.transform = "rotate(" + ((seconds + 45) * 6) +"deg)";
     minute.style.transform = "rotate(" + ((minutes + 45) * 6) +"deg)";
     hour.style.transform = "rotate(" + ((hours + 45) * 30) +"deg)";
@@ -57,5 +58,5 @@ function sec() {
             }
         }
     }
-    setTimeout( sec, 1000)
+    setTimeout( chrono, 1000)
 }
