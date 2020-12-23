@@ -1,4 +1,7 @@
 const date = new Date();
+const hour = document.getElementById("hours");
+const minute = document.getElementById("minutes");
+const second = document.getElementById("seconds");
 
 let hours = date.getHours();
 let minutes = date.getMinutes();
@@ -6,9 +9,6 @@ let seconds = date.getSeconds();
 let day = date.getDate();
 let month = (date.getMonth() +1);
 let year = date.getFullYear();
-let hour = document.getElementById("hours");
-let minute = document.getElementById("minutes");
-let second = document.getElementById("seconds");
 
 document.getElementById("date").innerHTML = "Date du jour: " + day + "/" + month + "/" + year;
 
